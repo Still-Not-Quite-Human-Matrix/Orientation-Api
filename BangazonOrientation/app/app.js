@@ -10,27 +10,27 @@ app.config([
             })
             .when("/computers",
             {
-                templateUrl: '/app/partials/computers.html',
+                templateUrl: '/app/partials/computers/computers.html',
                 controller: 'ComputersController'
             })
             .when("/computers/new",
             {
-                templateUrl: '/app/partials/new_computer.html',
+                templateUrl: '/app/partials/computers/new_computer.html',
                 controller: 'NewComputersController'
             })
             .when("/computers/:id",
             {
-                templateUrl: '/app/partials/computers_detail.html',
+                templateUrl: '/app/partials/computers/computers_detail.html',
                 controller: 'ComputersDetailController'
             })
             .when("/computers/:id/delete",
             {
-                templateUrl: '/app/partials/computers_delete.html',
+                templateUrl: '/app/partials/computers/computers_delete.html',
                 controller: 'ComputersDeleteController'
             })
             .when("/employees",
             {
-                templateUrl: '/app/partials/employees.html',
+                templateUrl: '/app/partials/employees/employees.html',
                 controller: 'EmployeeController'
             });
     }

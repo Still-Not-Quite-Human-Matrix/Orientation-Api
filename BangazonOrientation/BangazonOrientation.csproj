@@ -221,19 +221,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
-    <Content Include="app\Controllers\ComputersController.js" />
-    <Content Include="app\Controllers\ComputersDeleteController.js" />
-    <Content Include="app\Controllers\ComputersDetailController.js" />
-    <Content Include="app\Controllers\EmployeeController.js" />
+    <Content Include="app\Controllers\Computers\ComputersController.js" />
+    <Content Include="app\Controllers\Computers\ComputersDeleteController.js" />
+    <Content Include="app\Controllers\Computers\ComputersDetailController.js" />
+    <Content Include="app\Controllers\Employees\EmployeeController.js" />
     <Content Include="app\Controllers\HomeController.js" />
-    <Content Include="app\Controllers\NewComputersController.js" />
-    <Content Include="app\partials\computers.html" />
-    <Content Include="app\partials\computers_delete.html" />
-    <Content Include="app\partials\computers_detail.html" />
-    <Content Include="app\partials\employees.html" />
+    <Content Include="app\Controllers\Computers\NewComputersController.js" />
+    <Content Include="app\partials\Computers\computers.html" />
+    <Content Include="app\partials\Computers\computers_delete.html" />
+    <Content Include="app\partials\Computers\computers_detail.html" />
+    <Content Include="app\partials\Employees\employees.html" />
     <Content Include="app\partials\index.html" />
-    <Content Include="app\partials\new_computer.html" />
-    <Content Include="app\partials\new_employee.html" />
+    <Content Include="app\partials\Computers\new_computer.html" />
+    <Content Include="app\partials\Employees\new_employee.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -295,6 +295,10 @@
     <Content Include="Views\web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\Controllers\Departments\" />
+    <Folder Include="app\Controllers\TrainingPrograms\" />
+    <Folder Include="app\partials\Departments\" />
+    <Folder Include="app\partials\TrainingPrograms\" />
     <Folder Include="App_Data\" />
     <Folder Include="Views\Computer\" />
   </ItemGroup>
