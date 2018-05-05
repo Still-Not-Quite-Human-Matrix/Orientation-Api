@@ -7,6 +7,8 @@
                 $location.path(`/employees`);
             }).catch((err) => {
                 console.log("error posting new employee", err);
-            });
+                });
+
+            
         };
     }]);
